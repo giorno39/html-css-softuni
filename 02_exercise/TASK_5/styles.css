@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@200&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;700&family=Montserrat:wght@200&family=Raleway:ital,wght@0,200;1,200&display=swap');
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 700px;
+  margin: 0 auto;
+}
+
+h2{
+  font-family: 'Great Vibes';
+}

@@ -1,0 +1,10 @@
+li{
+  color: brown;
+}
+
+.container{
+    background-color: #aaa;
+    width: 300px;
+    padding: 5px 10px;
+    border: black solid 1px;
+}

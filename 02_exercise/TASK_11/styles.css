@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font: 16px/1.5 Arial, Helvetica, sans-serif;
+  margin-left: 3em;
+  width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin-bottom: 15px
+}
+
+hr{
+  margin-bottom: 1.5em;
+}
+ 
+p{
+  margin-bottom: 1.5em;
+}
+
+
+ul, ol {
+  margin-left: 2em;
+}
+
+article > ul,article > ol{
+  margin-bottom: 2em;
+}
+
+blockquote{
+  font-style: italic;
+  border-left: 1px solid #333;
+  padding-left: 5em;
+  padding-bottom: 1.5em;
+  position: relative;
+  margin-bottom: 3em;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, td, th{
+  border: 1px solid #333;
+}
+
+td, th{
+  padding: 0.5em 0.7em;
+}
+
+table thead th{
+  background-color: #DDD;
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: #EEE;
+}
+
+.author{
+  position: absolute;
+  bottom: -1.5em;
+  right: 5em;
+}
+
+

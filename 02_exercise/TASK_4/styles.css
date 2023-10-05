@@ -1,0 +1,46 @@
+body{
+  background-color: lightgray;
+}
+
+p{
+  font-size: 24px;
+}
+
+button{
+  border:0;
+  font-size: 15px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+a, button{
+  padding: 5px 11px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+a:visited{
+  color: black;
+}
+ 
+
+.bold{
+  font-weight: bold;
+}
+
+.fill:visited, .fill{
+  color: white;
+  background-color: #333;
+  border: none
+
+}
+
+.fill:hover, .fill:active{
+  background-color: rgb(28, 105, 28);
+}
+
+

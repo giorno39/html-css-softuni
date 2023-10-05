@@ -1,0 +1,16 @@
+body{
+  width: 700px;
+  background-color: #e4e978;
+}
+
+section{
+  background-color: #f2f4c0;
+  border: solid 1px #5c6e91;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+
+.comment-section{
+  color: #4c7658;
+  font-style: italic;
+}
