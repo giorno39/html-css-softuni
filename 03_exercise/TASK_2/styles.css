@@ -1,0 +1,20 @@
+article{
+  margin: 5em auto;
+  width: 500px;
+  height: 200px;
+  background-color: lightgray;
+  padding: 10px;
+  overflow: auto;
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+p{
+  text-indent: 30px;
+}

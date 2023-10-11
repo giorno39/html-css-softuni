@@ -1,0 +1,27 @@
+.icon{
+  padding: 0.7em;
+  background-color: #ccc;
+  border-radius: 10em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.fb:hover{
+  color: blue;
+}
+
+.x:hover{
+  color: rgb(3, 214, 214)
+}
+
+.g:hover{
+  color: orange;
+}
+
+.ln:hover{
+  color: blue;
+}
+
+.insta:hover{
+  color: gray;
+}

@@ -1,0 +1,14 @@
+body{
+  margin: 5em;
+}
+
+.cup{
+  position: relavite;
+}
+
+.new{
+  position: absolute;
+  top: 0;
+  left: 364;
+  transform: translateX(-50%);
+}
