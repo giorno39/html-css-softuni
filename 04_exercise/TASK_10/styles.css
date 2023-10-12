@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ddd;
+}
+
+div{
+  height: 300px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 0 0 2em 0 rgb(0,0,0,0.2);
+  transition: all 1s ease-in-out;
+}
+
+img{
+  display: block;
+  height: 300px;
+  width: auto;
+}
+
+.container{
+  display: flex;
+  gap: 10px;
+}
+
+.container div:hover{
+  width: 350px;
+  transform: translateX(0);
+}

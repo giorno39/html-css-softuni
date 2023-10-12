@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 4em;
+  display: flex;
+  background-color: #ddd;
+}
+
+.gallery{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+li{
+  flex: 1 1 300px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+  border: 8px solid black;
+  padding: 2em 1em;
+}
+
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
