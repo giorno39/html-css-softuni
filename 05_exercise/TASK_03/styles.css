@@ -1,0 +1,64 @@
+*body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font: 16px/1.3 Arial, Helvetica, sans-serif; 
+}
+
+label{
+  font-weight: bold;
+}
+
+.login-container{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 2em;
+  position: relative;
+  border-radius: 0.2em;
+  background-color: rgb(231, 231, 231);
+  padding-bottom: 4em;
+}
+
+
+.login-container::after{
+  display: block;
+  content: "Login";
+  position: absolute;
+  font-size: 14px;
+  top: -0.5em;
+  left: -1px;
+  background-color: white;
+  padding: 0 3em 0 0.5em;
+  border: 1px solid black;
+  border-radius: 0.2em;
+}
+
+.login-btn{
+  padding: 0.25em 0.5em;
+  width: 5em;
+  font-size: 14px;
+  border: none;
+  background-color: rgb(34, 32, 32);
+  color: white;
+  border-radius: 0.3em;
+  position: absolute;
+  left: 2.4em;
+  bottom: 1em;
+}
+
+@media (min-width: 500px){
+  .form-container{
+    display: flex;
+    gap: 0.25em;
+  }
+
+  .form-container:first-child{
+    padding-bottom: 1.5em;
+  }
+
+}

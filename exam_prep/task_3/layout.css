@@ -1,0 +1,66 @@
+img{
+  width: 100%;
+  height: auto;
+}
+
+.sec-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em 0 2em;
+}
+
+.header-section .sec-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials{
+  display: flex;
+  gap: 0.5em;
+}
+
+.socials li{
+  display: block;
+}
+
+.nav-section .sec-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation{
+  display: flex;
+  gap: 2em;
+}
+
+.navigation li{
+  display: block;
+}
+
+
+.nav-section .sec-container h1{
+  visibility: hidden;
+}
+
+.hero-card-section .sec-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container article{
+  flex: 1 1 30%
+}
+
+footer{
+  text-align: center;
+}

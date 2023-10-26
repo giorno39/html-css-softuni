@@ -1,0 +1,68 @@
+h1{
+  display: none;
+}
+
+.container{
+  padding: 0 9em 0 9em;
+  margin: 0 auto;
+}
+
+
+
+.header-sec .container{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em;
+  align-items: center;
+}
+
+.header-sec img{
+  width: 100px;
+  height: auto;
+}
+
+.header-sec ul{
+  display: flex;
+  gap: 1em;
+}
+
+.header-sec li{
+  display: block;
+}
+
+.hero-section .container{
+  padding-bottom: 9em;
+}
+
+.information-sec .container{
+  display: flex;
+  gap: 2.5em;
+}
+.sponsors-sec{
+  padding-bottom: 4em;
+}
+
+.sponsors-sec .container h3,
+.sponsors-sec .container p
+{
+  text-align: center;
+}
+
+
+.sponsors-sec .container img{
+  width: 70px;
+  height: auto;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  padding: 5em 0 5em 0;
+}
+
+.footer-sec .container{
+  display: flex;
+  justify-content: space-between;
+  gap: 4em;
+}

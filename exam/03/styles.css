@@ -1,0 +1,86 @@
+header{
+  background-image: url(images/background.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.hero-section .container p{
+  width: 35em;
+  padding-top: 1em;
+}
+
+.information-sec{
+  padding-top: 5em;
+}
+
+.information-sec h3{
+  padding-bottom: 0.5em;
+}
+
+.information-sec p{
+  padding-bottom: 2.5em
+}
+
+.information-sec article{
+  padding-bottom: 5em
+}
+
+.information-sec a{
+  border: 1px solid #B0825C;
+  color: #B0825C;
+  padding: 0.5em 0.75em;
+}
+
+
+.horizontal-line::after{
+  display: block;
+  content:"";
+  width: 100%;
+  height: 1px;
+  background-color: #CCCCCC;
+  position: absolute;
+}
+
+.sponsors-sec{
+  padding-top: 2.5em;
+}
+
+.sponsors-sec h3{
+  color: #B0825C;
+  padding-bottom: 0.5em
+}
+
+.sponsors-sec p,
+.information-sec p{
+  color: #37282B;
+}
+
+.img-container span{
+  background-color: #DDDDDD;
+  padding: 1.3em 1.5em;
+  border-radius: 500em;
+}
+
+.footer-sec{
+  background-color: #171720;
+}
+
+.footer-sec h5{
+  color: white;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+.footer-sec li,
+footer{
+  color: #A4A69B;
+  display: block;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.link-footer{
+  padding-bottom: 4em;
+}

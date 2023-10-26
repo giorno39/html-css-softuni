@@ -1,0 +1,128 @@
+.header-section{
+  background-color: #D01919;
+  color: white;
+}
+
+.socials span{
+  display: none;
+}
+
+
+i{
+  padding-right: 0.5em;
+}
+
+.nav-section{
+
+  color: white;
+  padding-top: 1em
+}
+
+.hero-card-section{
+
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+h2{
+  font-size: 3em;
+  letter-spacing: 0.2em;
+
+}
+
+.hero-card-section p{
+    width: 60%;
+    text-align: center;
+}
+
+.hero-card-section a{
+  background-color: #D01919;
+  padding: 0.5em 0.75em;
+  margin-top: 2em;
+  border-radius: 0.3em;
+  font-size: 14px;
+}
+
+.information-section,
+.coaches-section{
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.information-section h3,
+.coaches-section h3{
+  font-size: 22px;
+}
+
+.card-container article{
+  text-align: center;
+}
+
+.card-container{
+  gap: 8em;
+}
+
+.coaches-section{
+  background-color: #EFEFEF;
+}
+
+.information-section img{
+  width: 25%;
+  padding: 2em 0 1em 0;
+}
+
+.information-section h5{
+  color: #D01919;
+  padding-bottom: 1em;
+}
+
+.coaches-section h3{
+  padding-bottom: 2em;
+}
+
+.coaches-section img,
+.coaches-section h5,
+.coaches-section h6,
+.coaches-section p{
+  padding-bottom: 1em;
+}
+
+.coaches-section h5{
+  font-size: 16px;
+}
+
+.coaches-section h6{
+  color: #D01919;
+  font-size: 14px;
+}
+
+.footer-section{
+  background-color: #D01919;
+  color: white;
+  padding: 0.25em 0;
+}
+
+h3{
+  position:relative;
+}
+
+h3:before{
+  display:block;
+  content: "";
+  width: 2em;
+  height: 2px;
+  background-color: #D01919;
+  position: absolute;
+  left: 48%;
+  top: 40px;
+}
+
+.information-section .card-container{
+  padding: 0 3.5em;;
+}
+
+.information-section{
+  background-color: white;
+}
